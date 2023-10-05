@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T15:39:58.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="QIulszZOjcQS9hKulTGt" version="22.0.2" type="device">
+  <diagram name="Page-1" id="souubsgoGe8IMvv5UWf3">
+    <mxGraphModel dx="1665" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-2" value="Branch" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-875" width="160" height="120" as="geometry">
+            <mxRectangle x="-750" y="-615" width="100" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-3" value="+ID&lt;br&gt;+Name&lt;br&gt;+Address (Composite)&lt;br&gt;+Phone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-2" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-4" value="Supplier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="-875" width="160" height="150" as="geometry">
+            <mxRectangle x="-620" y="-615" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-5" value="+ID&lt;br&gt;+Name&lt;br&gt;+Company ID&lt;br&gt;+Phone&lt;br&gt;+Notes&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-4" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-6" value="Company" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="-875" width="160" height="130" as="geometry">
+            <mxRectangle x="-430" y="-615" width="100" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-7" value="+Name&lt;br&gt;+ID&lt;br&gt;+Supplier ID &amp;lt;Collection&amp;gt;&lt;br&gt;+Medicine ID &amp;lt;Collection&amp;gt;&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-6" vertex="1">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-8" value="Patient" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-1080" width="160" height="155" as="geometry">
+            <mxRectangle x="-240" y="-615" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-9" value="+Name&lt;br&gt;+ID&lt;br&gt;+Phone&lt;br&gt;+Address&lt;br&gt;+Insureness&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-8" vertex="1">
+          <mxGeometry y="50" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-10" value="Doctor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="-1080" width="160" height="150" as="geometry">
+            <mxRectangle x="-50" y="-615" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-11" value="+ID&lt;br&gt;+Name&lt;br&gt;+Specilization&lt;br&gt;+Phone&lt;br&gt;+Address&lt;br&gt;Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-10" vertex="1">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-12" value="Preception" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="-1080" width="190" height="180" as="geometry">
+            <mxRectangle x="60" y="-615" width="110" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-13" value="+ID&lt;br&gt;+Doctor ID&lt;br&gt;+Patient ID&lt;br&gt;+Issue Date&lt;br&gt;+Status (opened -closed-In Quee)&lt;br&gt;+Medications &amp;lt;collection&amp;gt;&lt;br&gt;+Staff ID&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-12" vertex="1">
+          <mxGeometry y="50" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-14" value="Medication" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="-1080" width="160" height="250" as="geometry">
+            <mxRectangle x="200" y="-615" width="110" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-15" value="+ID&lt;br&gt;+Name&lt;br&gt;+Manufacturer ID(company)&lt;br&gt;+Dose&lt;br&gt;+Price&lt;br&gt;+Buy Price&lt;br&gt;+Sales Price&lt;br&gt;+Discount&lt;br&gt;+Qty&lt;br&gt;+Barcode&lt;br&gt;+Position in Pharmacy&lt;br&gt;+Photo&lt;br&gt;Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-14" vertex="1">
+          <mxGeometry y="50" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-16" value="Users (Staff)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="-1080" width="160" height="250" as="geometry">
+            <mxRectangle x="340" y="-615" width="80" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-17" value="+ID&lt;br&gt;+Username&lt;br&gt;+Name&lt;br&gt;+Recovery Word&lt;br&gt;+Position&lt;br&gt;+Phone&lt;br&gt;+Branch ID&lt;br&gt;+Authorizaion Profile ID&lt;br&gt;+Password&lt;br&gt;+Photo&lt;br&gt;+Is Active&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-16" vertex="1">
+          <mxGeometry y="50" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-18" value="Payment Transaction" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="-1080" width="160" height="210" as="geometry">
+            <mxRectangle x="450" y="-615" width="170" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-19" value="+ID&lt;br&gt;+Supplier or patient&lt;br&gt;+Name&lt;br&gt;+Id of person&lt;br&gt;+Debit&amp;nbsp;&lt;br&gt;+Credit&lt;br&gt;+Details&lt;br&gt;+Date and time&lt;br&gt;+Method&lt;br&gt;+Staff" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-18" vertex="1">
+          <mxGeometry y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-23" value="Invoice Header" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-1080" width="160" height="180" as="geometry">
+            <mxRectangle x="650" y="-615" width="130" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-24" value="+ID&lt;br&gt;+Staff ID&lt;br&gt;+Patient&amp;nbsp; ID&lt;br&gt;+Doctor ID&lt;br&gt;+QTY Sold&lt;br&gt;+Date and Time&lt;br&gt;+Total Price&lt;br&gt;+Payment Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-23" vertex="1">
+          <mxGeometry y="50" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-25" value="Invoice Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-1080" width="160" height="160" as="geometry">
+            <mxRectangle x="810" y="-615" width="130" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-26" value="+ID&lt;br&gt;+Med-ID&lt;br&gt;+Med- Neme&lt;br&gt;+Med-Unit&lt;br&gt;+Med- Qty&lt;br&gt;+Med-Discount&lt;br&gt;+Dosge&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-25" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-28" value="Authorization" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="-785" width="160" height="120" as="geometry">
+            <mxRectangle x="550" y="-320" width="120" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-29" value="+ID&lt;br&gt;+Name&lt;br&gt;+Is Derleted&lt;br&gt;+Icollection&amp;lt;Authorization&amp;gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-28" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-30" value="Med-Unit" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="-785" width="160" height="120" as="geometry">
+            <mxRectangle x="360" y="-320" width="100" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3mQOERFuc3zjTHhYMp2-31" value="+ID&lt;br&gt;+Name&lt;br&gt;+Is Deleted" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="y3mQOERFuc3zjTHhYMp2-30" vertex="1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
