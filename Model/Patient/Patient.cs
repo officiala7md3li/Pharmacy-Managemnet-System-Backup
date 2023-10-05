@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacy_Managemnet_System.Model
 {
-    public class Patient: IPerson
+    public class Patient : IPerson
     {
         
         public int Id { get; set; }
